@@ -14,12 +14,15 @@
   "author": "Per Liedman <per@liedman.net>",
   "license": "ISC",
   "dependencies": {
-    "@turf/distance": "^6.0.1",
-    "@turf/explode": "^5.1.0",
-    "tap": "^14.2.2",
-    "tap-spec": "^5.0.0",
-    "tinyqueue": "^2.0.0",
-    "turf-point": "^2.0.1"
+    "@turf/distance": "6.0.1",
+    "@turf/explode": "5.1.0",
+    "tap": "14.2.2",
+    "tap-spec": "5.0.0",
+    "tinyqueue": "2.0.0",
+    "turf-point": "2.0.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "webpack": "4.35.3",
+    "webpack-cli": "3.3.6"
+  }
 }
